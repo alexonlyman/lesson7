@@ -16,6 +16,20 @@ public class Main {
             System.out.println("От большего " + c);
         }
 
+        //задание 2
+
+        for (int year = 1904; year<2096; year = year+4){
+            System.out.println(year + " год является високоным");
+        }
+
+        for (int d=0; d<105; d=d+7){
+            System.out.println("числа " + d);
+        }
+
+
+        for (int e=1; e<600; e=e*2 ){
+            System.out.println(e);
+        }
 
 
     }
