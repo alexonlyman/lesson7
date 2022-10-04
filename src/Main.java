@@ -31,6 +31,16 @@ public class Main {
             System.out.println(e);
         }
 
+        //задание 3
 
+
+        int salary = 74124;
+        int total = 0;
+        for (int f=0; f<12; f++){
+            total = total+total/100;
+            total = total + salary;
+            System.out.println("в месяц сумма накоплений "+ total + " рубей");
+        }
     }
+
 }
